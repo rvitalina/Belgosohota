@@ -1,0 +1,133 @@
+//animals
+{
+    "name": ""
+}
+
+//hunter
+{
+    "firstName": "", 
+    "lastName": "", 
+    "patronymic": "", 
+    "birthDate": "", 
+    "email": "", 
+    "password": ""
+}
+
+//organisations
+{
+    "name": "", 
+    "address": "", 
+    "phoneNumber": ""
+}
+
+//departments
+{
+    "name": "", 
+    "organisationId": ""
+}
+
+//rangers
+{
+    "firstName": "", 
+    "lastName": "", 
+    "patronymic": "",
+    "email": "", 
+    "password": "", 
+    "departmentId": ""
+}
+
+//employees
+{
+    "firstName": "", 
+    "lastName": "", 
+    "patronymic": "",
+    "email": "", 
+    "password": "", 
+    "departmentId": ""
+}
+
+//courses
+{
+    "name": "", 
+    "isCompleted": ""
+}
+
+//hunterHistory
+{
+    "courseId": "", 
+    "hunterId": ""
+}
+
+//huntingTerritories
+{
+    "name": "", 
+    "boundaries": "", 
+    "region": "",
+    "rangerId": ""
+}
+
+//permissions
+{
+    "issueDate": "", 
+    "expiryDate": "", 
+    "price": "",
+    "huntingTool": "", 
+    "isSeasonal": "", 
+    "season": "",
+    "huntingTerritoryId": "", 
+    "animalId": ""
+}
+
+//complex
+{
+    "name": "", 
+    "address": "", 
+    "organisationId": ""
+}
+
+//service
+{
+    "name": "", 
+    "price": "", 
+    "complexId": ""
+}
+
+//weaponPermission
+{
+    "hunterId": "", 
+    "issueDate": "", 
+    "expiryDate": "",
+    "weaponBrand": "",
+    "weaponCaliber": "",
+    "weaponType": ""
+}
+
+//bookingComplex
+{
+    "bill": "", 
+    "checkInDateTime": "", 
+    "checkOutDateTime": "",
+    "hunterId": "",
+    "complexId": ""
+}
+
+//currentEvent
+{
+    "heading": "", 
+    "content": "", 
+    "eventDate": "",
+    "employeeId": ""
+}
+
+//newsItem
+{
+    "heading": "", 
+    "content": "",
+    "employeeId": ""
+}
+
+//hunterPermission
+{
+    "hunterId": "", 
+    "permissionId": ""
+}
